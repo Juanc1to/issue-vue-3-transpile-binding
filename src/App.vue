@@ -41,8 +41,7 @@ export default {
       });
     },
     generate(index) {
-      const value = Math.floor(Math.random() * 2);
-      this.list[index].heads = [true, false][value];
+      this.list[index].heads = true;
       this.list[index].reveal = true;
     },
   },
